@@ -1,17 +1,15 @@
 [tool.poetry]
-name = "poetry env use 3-10-5"
+name = "streamlit-coleta-aovivo"
 version = "0.1.0"
 description = ""
 authors = ["Danie Marques de Almeida <danielmarques.enfermagem@gmail.com>"]
 readme = "README.md"
-packages = [{include = "poetry env use 3"}]
 
 [tool.poetry.dependencies]
-python = "^3.10"
-ruff = "^0.5.5"
-streamlit = "^1.37.0"
-sqlalchemy = "^2.0.32"
+python = "3.12.3"
+streamlit = "^1.37.1"
 python-dotenv = "^1.0.1"
+sqlalchemy = "^2.0.32"
 psycopg2-binary = "^2.9.9"
 
 
